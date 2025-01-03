@@ -12,6 +12,25 @@ function createGrid(numberOfBoxes) {
     }
 }
 
+function highlightNumbers(selectedNumber) {
+    const gridCells = grid.querySelectorAll("div");
+    let count = 0;
+
+    for (var i = 0; i < gridCells.length; i++) {
+        var cell = gridCells[i];
+        var cellNumber = parseInt(cell.textContent, 10);
+
+        if (cellNumber === selectedNumber) {
+            cell.style.backgroundColor = "lightblue";
+            count++;
+        } else {
+            cell.style.backgroundColor = "blanchedalmond";
+        }
+    }
+
+    return count;
+}
+
 submit.addEventListener("click", function () {
     var input = document.getElementById("gridAmountInputField");
     var numberOfBoxes = parseInt(input.value, 10);
