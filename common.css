@@ -2,3 +2,37 @@ nav{
     margin: 0 0;
     text-align: center;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.opperationBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#gridtable{
+    margin-top: 10px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(19, 1fr);
+}
+
+#gridtable div{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+input{
+    text-align: center;
+    width: 50px;
+}
