@@ -1,0 +1,18 @@
+.removed  {
+    background-color: salmon !important; 
+}
+
+#showNumber,
+#showRemovedNumber {
+    height: 12px; 
+    width: 150px;
+    line-height: 12px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#showNumber {
+    width: 40px;
+}
+
