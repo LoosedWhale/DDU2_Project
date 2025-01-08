@@ -21,10 +21,10 @@ function highlightNumbers(selectedNumber) {
         var cellNumber = parseInt(cell.textContent, 10);
 
         if (cellNumber === selectedNumber) {
-            cell.style.backgroundColor = "lightblue";
+            cell.style.backgroundColor = "orange";
             count++;
         } else {
-            cell.style.backgroundColor = "blanchedalmond";
+            cell.style.backgroundColor = "gainsboro";
         }
     }
 
