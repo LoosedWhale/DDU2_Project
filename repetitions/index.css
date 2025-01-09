@@ -1,0 +1,11 @@
+#mostRepeatedNumber, #notInPlaceNumber{
+    max-width: 600px;
+    line-height: 12px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.marked {
+    background-color: lightblue !important; 
+}
