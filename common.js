@@ -1,6 +1,5 @@
 const body = document.querySelector("body");
 const submit = document.getElementById("submit");
-const reset = document.getElementById("reset");
 const grid = document.getElementById("gridtable");
 
 function createGrid(numberOfBoxes) {
