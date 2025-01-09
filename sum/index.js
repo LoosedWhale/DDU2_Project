@@ -34,7 +34,16 @@ function markNumber(event) {
     document.getElementById("sumMarked").textContent = markedSum;
 }
 
+reset.addEventListener("click", function () {
+    const allDivs = document.querySelectorAll("#gridtable div");
 
+    for (let div of allDivs) {
+        div.classList.remove("marked");
+    }
+
+    markedSum = 0;
+    document.getElementById("sumMarked").textContent = markedSum;
+});
 
 
 grid.addEventListener("click", function (event) {
