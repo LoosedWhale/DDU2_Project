@@ -1,0 +1,12 @@
+.marked {
+    background-color: lime !important; 
+}
+
+#sumAll, #sumMarked{
+    height: 12px; 
+    width: 150px;
+    line-height: 12px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
