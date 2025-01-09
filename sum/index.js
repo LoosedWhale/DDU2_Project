@@ -41,7 +41,7 @@ reset.addEventListener("click", function () {
         div.classList.remove("marked");
     }
 
-    markedSum = "-";
+    markedSum = 0;
     document.getElementById("sumMarked").textContent = markedSum;
 });
 
